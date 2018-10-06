@@ -3,7 +3,7 @@ const App = require('../../App.js');
 
 const getCodeDataGlobal = App.getCodeDataGlobal;
 
-module.exports = (app, db, codeData) => {
+module.exports = (app, db) => {
 
   app.get('/allCodes', (req, res)=> {
     const codeDataGlobal = getCodeDataGlobal();

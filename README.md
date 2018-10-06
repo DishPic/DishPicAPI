@@ -17,6 +17,7 @@ $ npm i -D nodemon
 Starting the server
 $ npm run start
 
+
 or without nodemon
 $ node App.js
 

@@ -28,4 +28,4 @@ require('./app/routes')(app, {}, codeData);
 app.get('/', (req, res) => res.send("Hi, welcome to Codigma"))
 app.get('*', (req, res) => res.send("API Endpoint not supported"))
 
-app.listen(port, () => console.log(`app listening on port ${port}`))
+app.listen(process.env.PORT || port, () => console.log(`app listening on port ${port}`))
