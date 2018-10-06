@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "sitefeng",
+    "password": null,
+    "database": "Codigma",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "sitefeng",
+    "password": null,
+    "database": "Codigma",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "sitefeng",
+    "password": null,
+    "database": "Codigma",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  }
+}
